@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { AuthService } from '../auth.service';
-import { strictEqual } from 'assert';
-import { stringify } from 'querystring';
+
 
 @Component({
   selector: 'app-signin',
